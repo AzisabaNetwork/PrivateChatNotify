@@ -1,0 +1,5 @@
+name: PrivateChatNotify
+main: net.azisaba.lgw.privatechatnotify.PrivateChatNotify
+version: 1.0.0
+author: siloneco
+description: "Notify private chat plugin"
