@@ -66,7 +66,7 @@ public class PrivateChatNotify extends JavaPlugin implements Listener {
 
         if ( playSound ) {
             // ターゲットに音を鳴らす
-            target.playSound(target.getLocation(), Sound.BLOCK_ANVIL_PLACE, Float.MAX_VALUE, 2f);
+            target.playSound(target.getLocation(), Sound.BLOCK_ANVIL_PLACE, 1f, 2f);
         }
         if ( displayTitle ) {
             // タイトルを表示する
