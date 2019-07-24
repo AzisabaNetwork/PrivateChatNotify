@@ -48,8 +48,8 @@ public class PrivateChatNotify extends JavaPlugin implements Listener {
         }
 
         // 音とタイトルの設定
-        boolean playSound = true;
-        boolean displayTitle = true;
+        boolean playSound = false;
+        boolean displayTitle = false;
         // Pluginのロードを確認
         if ( isEnabledSettingsPlugin() ) {
             // 設定をロード
