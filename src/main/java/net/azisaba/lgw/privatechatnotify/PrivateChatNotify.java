@@ -62,6 +62,10 @@ public class PrivateChatNotify extends JavaPlugin implements Listener {
             if ( data.isSet(displayTitleKey) ) {
                 displayTitle = data.getBoolean(displayTitleKey);
             }
+        } else {
+            // ロードされていない場合は両方とも有効化する
+            playSound = true;
+            displayTitle = true;
         }
 
         if ( playSound ) {
