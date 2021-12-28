@@ -45,8 +45,8 @@
       <url>https://hub.spigotmc.org/nexus/content/groups/public/</url>
     </repository>
     <repository>
-      <id>azisaba-repo</id>
-      <url>https://mvn-repo.azisaba.net/</url>
+      <id>jitpack.io</id>
+      <url>https://jitpack.io/</url>
     </repository>
     <repository>
       <id>ucchy-repo</id>
@@ -62,7 +62,7 @@
       <scope>provided</scope>
     </dependency>
     <dependency>
-      <groupId>net.azisaba</groupId>
+      <groupId>com.github.AzisabaNetwork</groupId>
       <artifactId>PlayerSettings</artifactId>
       <version>1.0.0</version>
       <scope>provided</scope>
