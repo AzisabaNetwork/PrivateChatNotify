@@ -30,7 +30,7 @@
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-compiler-plugin</artifactId>
-        <version>3.8.1</version>
+        <version>3.9.0</version>
         <configuration>
           <source>${java.version}</source>
           <target>${java.version}</target>
@@ -72,6 +72,16 @@
       <artifactId>LunaChat</artifactId>
       <version>3.0.16</version>
       <scope>provided</scope>
+      <exclusions>
+        <exclusion>
+          <groupId>org.bstats</groupId>
+          <artifactId>bstats-bukkit</artifactId>
+        </exclusion>
+        <exclusion>
+          <groupId>org.bstats</groupId>
+          <artifactId>bstats-bungeecord</artifactId>
+        </exclusion>
+      </exclusions>
     </dependency>
   </dependencies>
 </project>
