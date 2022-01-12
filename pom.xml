@@ -75,7 +75,11 @@
       <exclusions>
         <exclusion>
           <groupId>org.bstats</groupId>
-          <artifactId>bstats-*</artifactId>
+          <artifactId>bstats-bukkit</artifactId>
+        </exclusion>
+        <exclusion>
+          <groupId>org.bstats</groupId>
+          <artifactId>bstats-bungeecord</artifactId>
         </exclusion>
       </exclusions>
     </dependency>
